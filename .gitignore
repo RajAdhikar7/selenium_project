@@ -1,0 +1,31 @@
+# .gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+
+# Ignore the file that stores environment variables
+.env
+
+# C extensions
+*.so
+
+# Virtual environment
+env/
+
+# VS Code
+.vscode/
+
+# Pycharm
+.idea/
+
+# MacOS
+.DS_Store
